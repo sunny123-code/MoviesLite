@@ -18,6 +18,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .heading {
@@ -30,7 +31,8 @@
     position: fixed;
     z-index: 100;
     box-shadow: 0px 1px 5px black;
-    padding:5px 10px
+    padding:5px 10px;
+    cursor: pointer;
 
 }
 @media (max-width:1000px)
@@ -112,12 +114,12 @@
     }
   }
 
- .trendingContent{
+ .PageContent{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
  }
-  .trendingTitle{
+  .PageTitle{
     font-size: 3vw;
     padding: 10px 0px;
     font-family: var(--font2);
@@ -129,7 +131,10 @@
   }
   @media(max-width:550px)
   {
-    .trendingTitle{
+    .PageTitle{
         font-size: 4vw;
     }
+  }
+  .genres{
+    padding: 7px 5px;
   }
