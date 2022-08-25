@@ -1,12 +1,14 @@
 import React from 'react'
+
 import { img_300, unavailable } from '../config/config'
 import Badge from '@mui/material/Badge'
+import ContentModel from './ContentModel';
 
 function SinglePage(props) {
-    const { title, poster_path, media_type, vote_average, date } = props
+    const { id, title, poster_path, media_type, vote_average, date } = props
     return (
         <>
-            <div className="card">
+            <ContentModel media_type={media_type} id={id} >
             <Badge badgeContent={vote_average.toFixed(1)} color={vote_average>8? 'primary' : 'secondary'}>
             
                  </Badge>
@@ -14,11 +16,11 @@ function SinglePage(props) {
 
                 <span className="card-heading">{title}</span>
                 <div className="card-content">
-                    <span className="media-type">{media_type == "tv" ? "Tv Series" : "Movie"}</span>
+                    <span className="media-type">{media_type == "tv" ? "TV Series" : "Movie"}</span>
                     <span className="date">{date}</span>
                 </div>
 
-            </div>
+            </ContentModel>
 
 
 
