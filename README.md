@@ -1,70 +1,70 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Movies Lite
 
-## Available Scripts
+This is Movies and Tv Series app using reactJS and Material UI with fully responsive functional. 
+user can view all movies and tv series trailer.
+user can view which movies and tv series are trending now.
+user can search the movies and tv series.
+where user can search the movie and tv series categoric wise just like action, comedy.
+alll movies and tv series TMDB API fetch using axios
 
-In the project directory, you can run:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tools/Libraries
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- React Hooks
+- axios 
+- React-Router-Dom
+- fetch api
+- css 
+- Material UI
+- Material Icons
+- react-alice-carousel
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Live Deployment
+https://movieslite.netlify.app/
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+  npm install
+```
 
-## Learn More
+Start the Locally
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://thesunnymallick.github.io/portfolio.github.io/?fbclid=IwAR3npLl9wrY9kaW4Hbi593NdVOH1mk3mc2JVz6lII905XQYGdv9P4WZ3sS4)
 
-### Analyzing the Bundle Size
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thesunnymallick/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+[![linkedin](https://img.shields.io/badge/instagram-e95950?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/themallicksunny/)
 
-### Making a Progressive Web App
+## Demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### user screen
+![App Screenshot](https://github.com/thesunnymallick/MoviesLite/blob/master/screenshot/Screenshot%20(36).png?raw=true)
 
-### Advanced Configuration
+![App Screenshot](https://github.com/thesunnymallick/MoviesLite/blob/master/screenshot/Screenshot%20(37).png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![App Screenshot](https://github.com/thesunnymallick/MoviesLite/blob/master/screenshot/Screenshot%20(38).png?raw=true)
 
-### Deployment
+### Responsive
+![App Screenshot](https://github.com/thesunnymallick/MoviesLite/blob/master/screenshot/Screenshot%20(41).png?raw=true)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![App Screenshot](https://github.com/thesunnymallick/MoviesLite/blob/master/screenshot/Screenshot%20(42).png?raw=true)
